@@ -210,7 +210,7 @@
             <div class="row mt-5">
                 <div class="col-12 d-flex flex-column align-items-center">
                     <textarea class="form-control" rows="5" placeholder="Message:"></textarea>
-                    <button type="submit" class="btn btn-outline-dark btn-lg mt-4">Book a Table</button>
+                    <button type="submit" id="book-btn" onclick="bookingForm()" class="btn btn-outline-dark btn-lg mt-4">Book a Table</button>
                 </div>
             </div>
         </form>
@@ -334,7 +334,7 @@
                             <div class="col-12 d-flex flex-column align-items-center">
                                 <input type="text" class="form-control" placeholder="Subject">
                                 <textarea class="form-control mt-5" rows="5" placeholder="Message"></textarea>
-                                <button type="submit" class="btn btn-outline-dark btn-lg mt-4">Send Message</button>
+                                <button type="submit" id="contact-btn" onclick="contactForm()" class="btn btn-outline-dark btn-lg mt-4">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -383,5 +383,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Book a Table Button
+        function bookingForm() {
+            alert("Your Booking has been made.");
+        }
+
+        // Send Message Button
+        function contactForm() {
+            alert("Your message has been sent. We will be in contact with your shortly.");
+        }
+    </script>
 </body>
 </html>
