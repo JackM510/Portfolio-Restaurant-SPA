@@ -1,0 +1,26 @@
+#menu{
+    background-color:lemonchiffon;
+}
+
+#book{
+    background-color:lavender;
+}
+
+#gallery{
+    background-color:rgb(174, 219, 248);
+}
+
+/* Menu components */
+.menu-link{
+    color:grey;
+}
+
+.menu-link:hover{
+    color:white;
+    border-radius: 0;
+}
+
+.menu-tabs .menu-link.active{
+    background-color:white;
+    border-radius: 0;
+}
