@@ -10,6 +10,10 @@
     background-color:rgb(174, 219, 248);
 }
 
+#about{
+    background-color:lavender;
+}
+
 /* Menu components */
 .menu-link{
     color:grey;
