@@ -10,7 +10,7 @@
     <title>Café Aroma</title>
     <link rel="icon" href="icon/cup-hot.svg" class="text-white">
 </head>
-<body>
+<body class="smooth-scroll">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
         <!-- Nav Logo -->
@@ -177,41 +177,37 @@
         </div>
     </section>
     <!-- Book A Table Section -->
-    <section class="container" id="book" style="margin-top:4rem;"> 
+    <section class="container vh-100" id="book" style="margin-top:4rem;"> 
         <div class="text-center">
             <h1 class="display-2">RESERVE</h1>
             <h1 class="display-6 mt-4">Book a table</h1>
         </div>
-        <form class="bg-light">
-            <!-- Name, Email, Phone -->
+        <form class="px-3">
             <div class="row mt-5">
-                <div class="col-4">
+                <!-- Name, Email, Phone -->
+                <div class="col-12 col-md-6 mb-3">
                     <input type="text" class="form-control" placeholder="Name:">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 mb-3">
                     <input type="email" class="form-control" placeholder="Email:">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 mb-3">
                     <input type="tel" class="form-control" placeholder="Phone:">
                 </div>
-            </div>
-            <!-- Date, Time, Num People-->
-            <div class="row mt-5">
-                <div class="col-4">
+                <!-- Date, Time, Num People -->
+                <div class="col-12 col-md-6 mb-3">
                     <input type="date" class="form-control" placeholder="Date:">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 mb-3">
                     <input type="time" class="form-control" placeholder="Time:">
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 mb-3">
                     <input type="text" class="form-control" placeholder="No. of people:">
                 </div>
-            </div>
-            <!-- Message Textarea-->
-            <div class="row mt-5">
+                <!-- Message Textarea -->
                 <div class="col-12 d-flex flex-column align-items-center">
-                    <textarea class="form-control" rows="5" placeholder="Message:"></textarea>
-                    <button type="submit" id="book-btn" onclick="bookingForm()" class="btn btn-outline-dark btn-lg mt-4">Book a Table</button>
+                    <textarea class="form-control" style="resize:none;" rows="5" placeholder="Message:"></textarea>
+                    <button type="submit" id="book-btn" onclick="bookingForm()" class="btn btn-outline-dark btn-lg fw-bold mt-4">Confirm Booking</button>
                 </div>
             </div>
         </form>
