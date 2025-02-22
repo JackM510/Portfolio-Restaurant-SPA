@@ -241,7 +241,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="container-fluid" style="padding-top:4rem; padding-bottom:4rem;" id="about"> 
+    <section class="container-fluid" style="padding-top:4rem; padding-bottom:8rem;" id="about"> 
         <div class="container">
             <div class="text-center">
                 <h1 class="display-2">ABOUT</h1>
@@ -273,65 +273,83 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="container-fluid" style="margin-top:4rem;" id="contact"> 
-        <div class="text-center">
-            <h1 class="display-2">CONTACT</h1>
-            <h1 class="display-6 mt-4">Contact Us</h1>
-        </div>
+    <section style="padding-bottom:4rem;" id="contact">  
         <!-- Contact Map -->
-        <div class="d-flex mt-5">
+        <div class="d-flex">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6259.33958315559!2d144.32235564267785!3d-38.333476862322144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1739571371510!5m2!1sen!2sau" style="width: 100%; height:400px; border:0; margin:0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="container mt-5">
+            <div class="text-center">
+                <h1 class="display-2">CONTACT</h1>
+                <h1 class="display-6 mt-4">Contact Us</h1>
+            </div>
             <!-- Contact Details -->
-            <div class="row justify-content-center">
-                <div class="col-4 bg-light">
-                    <div class="d-flex align-items-center mb-5">
-                        <i class="bi bi-geo-alt-fill bg-info p-3 rounded-3"></i>
-                        <div class="d-flex flex-column justify-content-center ms-2">
-                            <h5 class="m-0">Location:</h5>
-                            <p class="m-0">Example Street</p>
+            <div class="row justify-content-center mt-5">
+                <!-- Icons Section -->
+                <div class="col-12 col-lg-4 justify-content-center">
+                        <!-- Location -->
+                        <div class="mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-geo-alt-fill bg-dark text-white p-3 rounded-5"></i>
+                                <div class="d-flex flex-column justify-content-center ms-3">
+                                    <h5 class="m-0">Location:</h5>
+                                    <a class="m-0" href="https://www.google.com/maps/place/35+The+Esplanade,+Torquay,+VIC+3228">35 The Esplanade, Torquay, VIC, 3228</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Clock -->
+                        <div class="mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-clock-fill bg-dark text-white p-3 rounded-5"></i>
+                                <div class="d-flex flex-column justify-content-center ms-3">
+                                    <h5 class="m-0">Open Hours:</h5>
+                                    <p class="m-0">Monday - Friday: 7AM - 4PM</p>
+                                    <p class="m-0">Saturday: 7AM - 3PM</p>
+                                    <p class="m-0">Sunday: 8AM - 3PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-envelope-fill bg-dark text-white p-3 rounded-5"></i>
+                                <div class="d-flex flex-column justify-content-center ms-3">
+                                    <h5 class="m-0">Email:</h5>
+                                    <a class="m-0" href="mailto:enquiries@cafe-aroma.com">enquiries@cafe-aroma.com</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Phone -->
+                        <div class="mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-telephone-inbound-fill bg-dark text-white p-3 rounded-5"></i>
+                                <div class="d-flex flex-column justify-content-center ms-3">
+                                    <h5 class="m-0">Phone:</h5>
+                                    <a href="tel:+61352959955">(03) 5295 9955</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center mb-5">
-                        <i class="bi bi-clock-fill bg-info p-3 rounded-3"></i>
-                        <div class="d-flex flex-column justify-content-center ms-2">
-                            <h5 class="m-0">Open Hours:</h5>
-                            <p class="m-0">Monday-Sunday: 7AM - 4PM</p>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-5">
-                        <i class="bi bi-envelope-fill bg-info p-3 rounded-3"></i>
-                        <div class="d-flex flex-column justify-content-center ms-2">
-                            <h5 class="m-0">Email:</h5>
-                            <p class="m-0">Example@example.com</p>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-5">
-                        <i class="bi bi-telephone-inbound-fill bg-info p-3 rounded-3"></i>
-                        <div class="d-flex flex-column justify-content-center ms-2">
-                            <h5 class="m-0">Phone:</h5>
-                            <p class="m-0">555 555 555</p>
-                        </div>
-                    </div>
-                </div>
                 <!-- Contact Form -->
-                <div class="col-8 bg-light">
+                <div class="col-12 col-lg-8">
                     <form>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 mb-3">
                                 <input type="text" class="form-control" placeholder="Your name">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 mb-3">
                                 <input type="email" class="form-control" placeholder="Your email">
                             </div>
-                        </div>
-                        <div class="row mt-5">
-                            <div class="col-12 d-flex flex-column align-items-center">
+                            <div class="col-12 mb-3">
                                 <input type="text" class="form-control" placeholder="Subject">
-                                <textarea class="form-control mt-5" rows="5" placeholder="Message"></textarea>
-                                <button type="submit" id="contact-btn" onclick="contactForm()" class="btn btn-outline-dark btn-lg mt-4">Send Message</button>
                             </div>
+                            <div class="col-12 mb-3">
+                                <textarea class="form-control" style="resize:none;" rows="6" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <button type="submit" id="contact-btn" onclick="contactForm()" class="btn btn-outline-dark btn-lg fw-bold">Send Message</button>
+                            </div>                  
                         </div>
                     </form>
                 </div>
@@ -340,11 +358,11 @@
     </section>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-dark text-white" style="margin-top:4rem;">    
+    <footer class="container-fluid bg-dark text-white">    
         <div class="container">
             <div class="row pt-4">
                 <!-- Footer Icons-->
-                <div class="col-4">
+                <div class="col 12 col-md-4">
                     <h5>Café Aroma</h5>
                     <div>
                         <a class="me-2 text-white" href=""><i class="bi bi-facebook"></i></a>
@@ -354,7 +372,7 @@
                     </div>
                 </div>
                 <!-- Quick Links -->
-                <div class="col-4">
+                <div class="col 12 col-md-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
                         <li class="me-5"><a class="text-white" href="#">Home</a></li>
@@ -365,16 +383,14 @@
                     </ul>
                 </div>
                 <!-- Quick Links -->
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <h5>Contact Us</h5>
                     <ul class="list-unstyled">
-                        <li class="me-5"><p class="text-white m-0">Address Street</p></li>
-                        <li class="me-5"><p class="text-white m-0">City, Zip, State</p></li>
-                        <li class="me-5"><p class="text-white m-0">Phone</p></li>
+                        <li class="me-5"><p class="text-white m-0">35 The Esplanade</p></li>
+                        <li class="me-5"><p class="text-white m-0">Torquay, VIC, 3228</p></li>
+                        <li class="me-5"><a class="text-white m-0">(03) 5295 9955</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-12 d-flex justify-content-center mt-3">
                     <p>&copy; 2025 Café Aroma. All Rights Reserved.</p>
                 </div>
